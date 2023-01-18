@@ -25,7 +25,7 @@ struct ContentView: View {
             
             ButtonView(
                 action: {showingAlert = true},
-                title: "Exit",
+                title: "LogOut",
                 color: .blue)
                 .alert("Are you sure you want to go out?", isPresented: $showingAlert) {
                     Button("Yes", role: .destructive) {
